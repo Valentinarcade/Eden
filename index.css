@@ -1,0 +1,51 @@
+nav.menu-nav ul li.btn{
+    width: 15%;
+    list-style-type: none;
+    
+ }
+
+nav.menu-nav ul li.btn a {
+    height: 20%;
+    height: 20%;
+    width: 15%;
+    font-family: monospace;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(219,5,81);
+    padding: 10px;
+    font-size: 25px;
+    border-width: 2px;
+    width: 100%;
+}
+nav.menu-nav ul li.btn:hover a{
+    height: 20%;
+    width: 15%;
+    transition: 0.5s all;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(165,3,60);
+    padding: 10px;
+    font-size: 25px;
+}
+img.icon {
+    height: 20px;
+    width: 20px;
+}
+nav.menu-nav {
+    background-color: rgb(219,5,81);
+    padding-top: 5px;
+    padding-bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    
+    justify-content: space-around;
+    align-items:initial;
+}
+body {
+    color: #3e747c;
+}
+p {
+    height: 20%;
+    color: #3e747c;
+}
